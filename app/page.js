@@ -1,3 +1,9 @@
+import LoginForm from "@/components/LoginForm";
+
 export default function Home() {
-  return <main>Next auth service</main>;
+  return (
+    <main>
+      <LoginForm />
+    </main>
+  );
 }
